@@ -2,7 +2,28 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
+footer {
+    position: relative;
+    padding-top: 2em;
+    border-top: 2px double black;
+}
 
+#NavTitle {
+    color: yellow;
+}
+
+    #NavTitle:hover {
+        opacity: 0.5;
+    }
+
+.NavBanadaImg {
+    position: absolute;
+    top: .6em;
+    left: 6.5em;
+    float: left;
+    margin-right: .5em;
+    width: 1.5em;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -22,3 +43,123 @@ select,
 textarea {
     max-width: 280px;
 }
+/****************************************** Logan ******************************************/
+/* Home Page */
+.home {
+    float: none;
+}
+
+.home01 {
+    float: none;
+    margin: auto;
+    width: 80%;
+}
+
+.home02 {
+    /*  display: flex; */
+    border-radius: 5em 0em;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    float: left;
+    vertical-align: middle;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 20em;
+    height: 20em;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .home02 a p {
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .home02 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .home02:hover {
+        background-color: yellow;
+    }
+
+#myPhoneImage {
+    width: 10em;
+}
+
+#makBookImage {
+    width: 10em;
+}
+
+#myWatchImage {
+    width: 10em;
+}
+
+#myPadImage {
+    width: 10em;
+}
+
+/* About Banana Page */
+.AboutTitle {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.AboutMessage {
+    font-size: 2em;
+    color: yellow;
+    text-shadow: 2px 2px 8px black;
+}
+
+.AboutBanadaImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 2em;
+}
+
+.AboutBananaTxt {
+    font-size: 1.5em;
+}
+/* Contact Banana Page */
+.ContactBanadaImg {
+    border: .5em solid yellow;
+    border-radius: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1em;
+}
+
+.ContactTitle {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.ContactMessage {
+    font-size: 2em;
+    color: yellow;
+    text-shadow: 2px 2px 8px black;
+}
+
+.ContactText {
+    font-size: 1.5em;
+}
+
+.row1 {
+    vertical-align: middle;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: x-large;
+}
+/****************************************** Sehaj ******************************************/
+
+/****************************************** Arshdeep ******************************************/
+
+/****************************************** Sahba ******************************************/

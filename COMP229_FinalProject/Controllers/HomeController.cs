@@ -1,28 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace COMP229_FinalProject.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public IActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewData["Message"] = "What is Banada?";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public IActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewData["Message"] = "How to contact Banana?";
+
+            return View();
+        }
+        public IActionResult myPad()
+        {
+            ViewData["Message"] = "How to contact Banana?";
+
+            return View();
+        }
+        public IActionResult myWatch()
+        {
+            ViewData["Message"] = "How to contact Banana?";
 
             return View();
         }
